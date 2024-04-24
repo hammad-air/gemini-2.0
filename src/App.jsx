@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Sidebar from './components/Sidebar/Sidebar'
-import Main from './components/Main/Main'
+import Sidebar from './Components/Sidebar/Sidebar'
+import Main from './Components/Main/Main'
 
 function App() {
   const [count, setCount] = useState(0)
