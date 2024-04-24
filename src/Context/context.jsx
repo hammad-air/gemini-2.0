@@ -40,7 +40,7 @@ const ContextProvider = (props) => {
             const nextWord = newResponseArray[i];
             delayPara(i, nextWord + " ")
         };
-        
+
         setLoading(false)
         setinput("")
     };
